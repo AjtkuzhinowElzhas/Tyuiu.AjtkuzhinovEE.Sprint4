@@ -19,9 +19,13 @@ internal class Program
         {
             array[i] = Convert.ToInt32(Console.ReadLine());
             if (array[i] >= 4 && array[i] <= 9)
-            { i++; }
+            {            
+                i++; 
+            }
             else
-            { Console.WriteLine("Значение не входит в промежуток от 4 до 9, введите еще раз"); }
+            { 
+                Console.WriteLine("Значение не входит в промежуток от 4 до 9, введите еще раз"); 
+            }
         }
 
 
