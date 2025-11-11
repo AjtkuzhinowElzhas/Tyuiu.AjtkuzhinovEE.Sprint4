@@ -1,6 +1,4 @@
-﻿
-using Tyuiu.AjtkuzhinovEE.Sprint5.Task4.V28.Lib;
-
+﻿using Tyuiu.AjtkuzhinovEE.Sprint4.Task4.V28.Lib;
 internal class Program
 {
     private static void Main(string[] args)
@@ -41,7 +39,7 @@ internal class Program
             }
 
         }
-         
+
 
         Console.WriteLine("###########################################################################");
         Console.WriteLine("# РЕЗУЛЬТАТ:                                                              #");
@@ -49,6 +47,8 @@ internal class Program
 
         Console.WriteLine(matrix);
         Console.ReadKey();
+       
+
 
     }
 }

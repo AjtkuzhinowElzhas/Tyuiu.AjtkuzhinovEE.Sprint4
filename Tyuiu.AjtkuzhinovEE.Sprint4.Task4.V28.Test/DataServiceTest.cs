@@ -1,6 +1,5 @@
 ﻿using Tyuiu.AjtkuzhinovEE.Sprint4.Task4.V28.Lib;
 
-
 namespace Tyuiu.AjtkuzhinovEE.Sprint4.Task4.V28.Test
 {
     [TestClass]
@@ -18,12 +17,12 @@ namespace Tyuiu.AjtkuzhinovEE.Sprint4.Task4.V28.Test
             var result = ds.Calculate(matrix);
 
 
-            int[,] wait = new int   [,] {    { 3, 3, 1, 1, 1 },
+            int[,] wait = new int[,] {    { 3, 3, 1, 1, 1 },
                                              { 1, 1, 1, 1, 5 },
                                              { 1, 1, 1, 1, 1 },
                                              { 1, 5, 1, 5, 1 },
                                              { 1, 1, 3, 1, 1 } };
-            
+
             CollectionAssert.AreEqual(wait, result);
         }
     }
